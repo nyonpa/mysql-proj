@@ -12,4 +12,5 @@ Steps involved in developing JDBC Application:
 	5 	execute the query
 	6 	process the result
 	7 	close the connection
- throw exception and handling the exception too.
+  Final architecture
+    main ( controller) -> studentDAO ( Database logic) --> Student (Model) --> MySQL ( Database)
